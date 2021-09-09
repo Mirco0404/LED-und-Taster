@@ -1,0 +1,5 @@
+CREATE TABLE status (
+    id INTEGER PRIMARY KEY NOT NULL,
+    led_status	BOOL,
+    time DATETIME DEFAULT CURRENT_TIMESTAMP
+);
